@@ -1,0 +1,35 @@
+img {
+  width: 100%;
+}
+
+.content {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.btn-add {
+  align-self: flex-end;
+}
+
+.btn-details {
+  background-color: #c8d6e5;
+  color: #222f3e;
+}
+
+.btn-details:hover {
+  background-color: #8395a7;
+}
+
+.product-card {
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.button-container {
+  display: flex;
+  gap: 2rem;
+}

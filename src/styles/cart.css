@@ -1,0 +1,59 @@
+.cart-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  max-width: 80%;
+  font-size: 18px;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 16px 24px;
+  text-align: center;
+}
+
+thead tr {
+  background-color: #576574;
+  color: white;
+}
+
+thead th {
+  width: 25%;
+}
+
+tbody tr:nth-child(2n + 2) {
+  background-color: #c8d6e5;
+}
+
+.cart-quantity {
+  display: inline-block;
+  padding: 1.5rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #576574;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-change {
+  display: inline-block;
+  padding: 0.8rem;
+  width: 7px;
+  height: 7px;
+  border: 1px solid #576574;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

@@ -1,0 +1,33 @@
+.product-detail-image {
+  width: 100%;
+}
+
+product-detail-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-detail-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.product-detail-rating {
+  font-size: 1rem;
+}
+
+.product-detail-rating ion-icon {
+  font-size: 1rem;
+  color: #feca57;
+  cursor: default;
+}
+
+.review-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  padding: 3rem;
+}
